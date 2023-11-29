@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+    <link rel="stylesheet" href="../style/imc.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+    <script src="../script/imc.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <header>
+            <a href="index.html"><img src="../imgs/logo.png" alt="" class="logo"></a>
+            <h1 class="title">Calculo de IMC</h1>
+            <a href="rm.html"><img src="../imgs/login.png" alt="" class="login"></a>
+    </header>
+    <main>
+    <div class="tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>IMC</th>
+                    <th>RESULTADO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Abaixo de 17</td>
+                    <td>Muito abaixo do peso ideal</td>
+                </tr>
+                <tr>
+                    <td>Entre 17 e 18,49</td>
+                    <td>Abaixo do peso</td>
+                </tr>
+                <tr>
+                    <td>Entre 18,5 e 24,99</td>
+                    <td>Peso normal</td>
+                </tr>
+                <tr>
+                    <td>Entre 25 e 29,99</td>
+                    <td>Acima do peso</td>
+                </tr>
+                <tr>
+                    <td>Entre 30 e 34,99</td>
+                    <td>Obesidade grau 1</td>
+                </tr>
+                <tr>
+                    <td>Entre 35 e 39,99</td>
+                    <td>Obesidade grau 2 </td>
+                </tr>
+                <tr>
+                    <td>Acima de 40</td>
+                    <td>Obesidade grau 3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="peso">
+        <h3>Digite seu peso em kg EX: 76.3</h3>
+        <input class="js-peso" type="text" placeholder="Digite seu peso"/>
+    </div>
+
+    <div class="altura">
+        <h3>Digite altura em metros EX: 1.82 </h3>
+        <input class="js-altura" type="text" placeholder="Digite sua altura"/>
+    </div>
+
+    <div class="botao">
+        <button id="calc-btn">Calcular</button>
+        <p class="resultado"></p>
+        <button id="clear-result">Limpar Resultado</button>
+    </div>
+</main>
+    <footer>
+        <h2>Nome: Enzo Antunes Oliveira</h2>
+        <h2>RMs:553185</h2>
+        <br>
+        <h2>Nome: Felipe Faria Semensato</h2>
+        <h2>RM: 553415</h2>
+        <br>
+        <h2>Nome: Vinicio Raphael Santana</h2>
+        <h2>RM: 553813</h2>
+    </footer>
+</div>
+</body>
+</html>

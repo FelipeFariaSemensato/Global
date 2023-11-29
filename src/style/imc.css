@@ -1,0 +1,157 @@
+*{
+    font-family: 'Bruno Ace', sans-serif, arial;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262825;
+    color: #fff;
+    height: 150px;
+}
+
+header:hover h1{
+    cursor: default;
+}
+
+.logo{
+    height: 200px;
+}
+
+.login{
+    height: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #656764;
+    color: #fff;
+    padding: 5px;
+}
+
+table {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 1px 1px 3px 3px #ccc;
+    width: 800px;
+    background-color: white;
+}
+
+.tabela thead {
+    background-color: rgb(172, 197, 152);
+    font-size: 1.8rem;
+    height: 200px;
+}
+
+td {
+    font-size: 1.4rem;
+    color: black;
+    padding: 2px;
+    text-align: center;
+}
+
+.peso {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.peso > h3 {
+    font-size: 1.4rem;
+    color: white;
+    padding-bottom: 4px;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.altura {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.altura > h3 {
+    font-size: 1.4rem;
+    color:white;
+    padding-bottom: 4px;
+}
+
+.botao{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao p {
+    font-size: 1.4rem;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    /* display: none; */
+}
+button{
+    width: 120px;
+    height: 60px;
+    padding: 5px;
+    background: rgb(172, 197, 152);
+    color: white;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    transition: .2s ease;
+}
+
+
+.botao #clear-result{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button:hover {
+    color: #000000;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #a0ab9d;
+    color: #ffff;
+    height: 250px;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    padding: 2rem;
+}
+
+footer:hover h2{
+    cursor: default;
+}
